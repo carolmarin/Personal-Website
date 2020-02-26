@@ -4,120 +4,98 @@
 		<title>Work</title>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<style>
 			body {
-				font-family: "Georgia", Georgia, serif;
+				font-family: "Courier New", Courier, monospace;
+				min-height: 100vh;
+				min-width: 100vw;
+				margin: 0px;
+				padding: 0px;
 			}
-			.navigation li {
-				float: initial;
-				display: inline-block;
-				height: 40px;
-			}
-			.navigation li a {
-				display: block;
-				color: black;
-				text-align: center;
-				padding: 10px 10px;
-			}
-			.navigation li a:hover {
-				height: 40px;
-				border-bottom: 3px solid teal;
-			}
-			.hov li{
-				padding: 12px 16px;
-				display: block;
-				text-align: left;
-			}
-			.hov li:hover {
-				padding: 12px 16px;
-				background-color: #e6e6e6;
+			.navbar {
+				min-height: 100vh;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="jumbotron">
+		<div class="container-fluid" style="background-color: gainsboro;">
 			<div class="row">
-				<div class="col-sm-6">
-					<h2 style="text-align: center;">Carol Marin-Sanabria</h2>
-				</div>
-				<div class="col-sm-6">
-					<nav class="navigation">
-						<ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
-							<li><a href="Home.html" style="text-decoration: none;">Home</a></li>
-							<li><a href="Education.html" style="text-decoration: none;">Education</a></li>
-							<li><a href="Work.html" style="text-decoration: none;">Work</a></li>
+				<div class="col-sm-3">
+					<nav class="navbar bg-dark navbar-dark justify-content-end sticky-top" style="text-align: right; margin: 0; left: 0;">
+						<ul class="navbar-nav">
+							<a class="navbar-brand" href="Resume.PDF">
+								<img src="Images/Pic.JPG" class="rounded-circle" alt="Profile" style="display: block; margin-left: auto; height: 70%; width: 70%;">
+							</a>
+							<li class="nav-item">
+								<a class="nav-link" href="About.html">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Education.html">EDUCATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="Work.html">WORK EXPERIENCE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Projects.html">PROJECTS</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
+				<div class="col-sm-9" style="margin-top: 50px; margin-bottom:50px;">
+					<h1>Carol Marin-Sanabria</h1>
+					<p><a href="tel:3126945145" style="color: darkorange;">(312) 684 - 5145</a> | <a href="mailto:camarinsana@gmail.com" style="color: darkorange;">CAMARINSANA@GMAIL.COM</a> | <a href="https://github.com/carolmarin" style="color: darkorange;">GITHUB</a> | <a href="https://www.linkedin.com/in/carol-marin-sanabria-5091b4125" style="color: darkorange;">LINKEDIN</a></p>
+					<br/>
+					<h1>Work Experience</h1>
+					<p><strong>Wireless Networks, Communications and Policy Research Center</strong>,</p>
+					<p style="font-size: 14px;">Research Assistant, May 2019 - Present</p>
+						<p>My responsibilities include:</p>
+							<ul>
+								<li>Building and designing the center's website</li>
+								<li>Collaborating in team coding and group workshopping</li>
+								<li>Present progress in weekly meetings</li>
+							</ul>
+					<p><strong>Nothing Bundt Cakes</strong>,</p>
+					<p style="font-size: 14px;">General Worker, July 2018 - Present</p>
+						<p>My responsibilities include:</p>
+						<ul>
+							<li>Organizing and taking inventory of products</li>
+							<li>Assisting coworkers and patrons</li>
+							<li>Delegating instructions and tasks</li>
+							<li>Executing work in an efficient manner</li>
+						</ul>
+					<p><strong>Illinois Institute of Technology, Paul V. Galvin Library</strong>,</p>
+					<p style="font-size: 14px;">Student Assistant, September 2017 - Present</p>
+						<p>My responsibilites include:</p>
+						<ul>
+							<li>Organizing and shifting books</li>
+							<li>Assisting students and patrons</li>
+							<li>Processing incoming and outgoing documents</li>
+						</ul>
+					<hr/>
+					<h2>Extracurricular Activities</h2>
+					<p><strong>Zeta Pi Omega</strong>,</p>
+					<p style="font-size: 14px;">Vice President, January 2017 - May 2018</p>
+						<p>I was in charge of:</p>
+						<ul>
+							<li>Leading weekly meetings</li>
+							<li>Arranging and sending bi-weekly newsletters to members and alumni</li>
+							<li>Attended bi-weekly executive board meetings</li>
+						</ul>
+					<p><strong>Illinois Institute of Technology</strong>,</p>
+					<p style="font-size: 14px;">Volunteer, August 2016 - December 2016</p>
+						<p>My job included:</p>
+						<ul>
+							<li>Assisting visitors</li>
+							<li>Transporting belongings</li>
+							<li>Collecting and relocating equipment</li>
+							<li>Directing guests to their designated areas</li>
+						</ul>
+				</div>
 			</div>
 		</div>
-		<br/>
-		<div class="container">
-			<h1>Work Experience</h1>
-			<p><strong>Wireless Networks, Communications and Policy Research Center</strong>, <small>Research Assistant, May 2019 - Present</small><p>
-				<p>My responsibilities include:</p>
-					<ul>
-						<li>Building and designing the center's website</li>
-						<li>Using Python to create a real-time data display</li>
-						<li>Present progress in weekly meetings</li>
-					</ul>
-			<p><strong>Nothing Bundt Cakes</strong>, <small>General Worker, July 2018 - Present</small></p>
-				<p>My responsibilities include:</p>
-				<ul>
-					<li>Organizing and taking inventory of products</li>
-					<li>Assisting coworkers and patrons</li>
-					<li>Delegating instructions and tasks</li>
-					<li>Executing work in an efficient manner</li>
-				</ul>
-			<p><strong>Illinois Institute of Technology, Paul V. Galvin Library</strong>, <small>Student Assistant, September 2017 - Present</small></p>
-				<p>My responsibilites include:</p>
-				<ul>
-					<li>Organizing and shifting books</li>
-					<li>Assisting students and patrons</li>
-					<li>Processing incoming and outgoing documents</li>
-				</ul>
-			<p><strong>Chicago Board of Election Commissioners</strong>, <small>Student Judge, October 2014 - October 2015</small></p>
-				<p>My responsibilites included:</p>
-				<ul>
-					<li>Being trained for 4 hours to serve three Chicago elections</li>
-					<li>Setting up and cleaning polling places</li>
-					<li>Serving as a Spanish translator</li>
-					<li>Helping people register to vote</li>
-					<li>Assigning paper and electronic ballots</li>
-				</ul>
-			<hr/>
-			<h2>Extracurricular Activities</h2>
-			<p><strong>Zeta Pi Omega</strong>, <small>Vice President, January 2017 - May 2018</small></p>
-				<p>I was in charge of:</p>
-				<ul>
-					<li>Leading weekly meetings</li>
-					<li>Arranging and sending bi-weekly newsletters to members and alumni</li>
-					<li>Attended bi-weekly executive board meetings</li>
-				</ul>
-			<p><strong>Illinois Institute of Technology</strong>, <small>Volunteer, August 2016 - December 2016</small></p>
-				<p>My job included:</p>
-				<ul>
-					<li>Assisting visitors</li>
-					<li>Transporting belongings</li>
-					<li>Collecting and relocating equipment</li>
-					<li>Directing guests to their designated areas</li>
-				</ul>
-			<hr/>
-			<h2>Projects</h2>
-			<p>Throughout my college career, I have worked on various small projects for classes and research centers. These can be found on my <a href="https://github.com/carolmarin" style="text-decoration: none; color: teal;">GitHub</a>.</p>
-		</div>
-		<br/>
-		<footer class="jumbotron" style="padding: 10px; overflow: hidden;">
-			<address style="margin-left: 15%;">
-				<strong>Contact Information</strong>
-					<p><strong>Email</strong>: <a href="mailto:camarinsana@gmail.com">camarinsana@gmail.com</a></p>
-					<p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/carol-marin-sanabria-5091b4125">Carol Marin-Sanabria</a></p>
-					<p><strong>GitHub</strong>: <a href=https://github.com/carolmarin>carolmarin</a></p>
-			</address>
-		</footer>
 	</body>
 </html>

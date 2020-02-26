@@ -4,118 +4,106 @@
 		<title>Education</title>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<style>
 			body {
-				font-family: "Georgia", Georgia, serif;
+				font-family: "Courier New", Courier, monospace;
+				min-height: 100vh;
+				min-width: 100vw;
+				margin: 0px;
+				padding: 0px;
 			}
-			.navigation li {
-				float: initial;
-				display: inline-block;
-				height: 40px;
-			}
-			.navigation li a {
-				display: block;
-				color: black;
-				text-align: center;
-				padding: 10px 10px;
-			}
-			.navigation li a:hover {
-				height: 40px;
-				border-bottom: 3px solid teal;
+			.navbar {
+				min-height: 100vh;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="jumbotron">
+		<div class="container-fluid" style="background-color: gainsboro;">
 			<div class="row">
-				<div class="col-sm-6">
-					<h2 style="text-align: center;">Carol Marin-Sanabria</h2>
-				</div>
-				<div class="col-sm-6">
-					<nav class="navigation">
-						<ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
-							<li><a href="Home.html" style="text-decoration: none;">Home</a></li>
-							<li><a href="Education.html" style="text-decoration: none;">Education</a></li>
-							<li><a href="Work.html" style="text-decoration: none;">Work</a></li>
+				<div class="col-sm-3">
+					<nav class="navbar bg-dark navbar-dark justify-content-end sticky-top" style="text-align: right; margin: 0; left: 0;">
+						<ul class="navbar-nav">
+							<a class="navbar-brand" href="Resume.PDF">
+								<img src="Images/Pic.JPG" class="rounded-circle" alt="Profile" style="display: block; margin-left: auto; height: 70%; width: 70%;">
+							</a>
+							<li class="nav-item">
+								<a class="nav-link" href="About.html">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="Education.html">EDUCATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Work.html">WORK EXPERIENCE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="Projects.html">PROJECTS</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
+				<div class="col-sm-9" style="margin-top: 50px; margin-bottom:50px;">
+					<h1>Carol Marin-Sanabria</h1>
+						<p><a href="tel:3126945145" style="color: darkorange;">(312) 684 - 5145</a> | <a href="mailto:camarinsana@gmail.com" style="color: darkorange;">CAMARINSANA@GMAIL.COM</a> | <a href="https://github.com/carolmarin" style="color: darkorange;">GITHUB</a> | <a href="https://www.linkedin.com/in/carol-marin-sanabria-5091b4125" style="color: darkorange;">LINKEDIN</a></p>
+						<br/>
+						<h2>Education</h2>
+							<h3>High School</h3>
+								<p><strong>Chicago Academy High School</strong>, <span style="font-size: 14px">3400 N. Austin Ave, Chicago, IL 60634</span></p>
+								<p>Attended: 2012 - 2016</p>
+							<h3>University</h3>
+							<p><strong>Illinois Institute of Technology</strong>, <span style="font-size: 14px">10 W. 35th St, Chicago, IL 60616</span></p>
+							<p>Bachelor of Science in Computer Information Systems (B.S. CIS)</p>
+							<p>Minor in Psychology</p>
+							<p>Expected: December 2020</p>
+						<hr/>
+						<h2>Completed Related Courses</h2>
+						<p>The following are lists of courses I have completed thus far that I find relevant to my studies. To reference the courses, you can access IIT's <a href="https://web.iit.edu/ugaa/undergraduate-bulletin" style="color: darkorange;">Undergraduate Bulletin</a> for more information.</p>
+							<h3>Major-Related Courses</h3>
+								<p>CS 201: Accelerated Introduction to Object-Oriented Computer Science</p>
+								<ul style="list-style-type: none;">
+									<li style="font-size: 14px;">Java and how to use methods and classes in order to perform object-oriented programming. The course's final project had student's individually create a program that will input all CTA train stops and allow a user to manipulate the data.</li>
+								</ul>
+								<p>CS 331: Data Structures and Algorithms</p>
+								<ul style="list-style-type: none;">
+									<li style="font-size: 14px;">Python and how to use and create functions and classes to manipulate data structures and perform algorithms.</li>
+								</ul>
+								<p>CS 350: Computer Organization and Assembly Language Programming</p>
+								<ul style="list-style-type: none;">
+									<li style="font-size: 14px;">How to use some C and write MIPS assembly code. The course's final project was to create a calculator that will ask for and accept input from the user and uses menus in order to find functions on how to perform any function the user requests.</li>
+								</ul>
+								<p>CS 425: Database Organization</p>
+								<ul style="list-style-type: none;">
+									<li style="font-size: 14px;">Using SQL and database management systems to organize information, creating entity-relationship models and relational schemas, and utilizing Python to execute an application for the final project.</li>
+								</ul>
+								<p>CS 442: Mobile Application Development</p>
+								<ul style="list-style-type: none;">
+									<li style="font-size: 14px;">Working with Java in Android Studio to develop and create mobile applications for Android devices.</li>
+								</ul>
+								<p>CS 487: Software Engineering</p>
+								<ul style="list-style-type: none;">
+									<li style="font-size: 14px;">Learning what software engineers do and how to manage various types of problems in such a workplace.</li>
+								</ul>
+							<h3>Minor-Related Courses</h3>
+								<ul style="list-style-type: none;">
+									<li style="font-size: 14px;">Learning how to properly and legally perform psychological experiments, surveys and analyze the data that was found.</li>
+								</ul>
+								<p>PSYC 221: Introduction to Psychological Science</p>
+								<p>PSYC 303: Abnormal Psychology</p>
+								<p>PSYC 380: Psychology of Gender</p>
+							<h3>Math Courses</h3>
+								<p>MATH 151: Calculus I</p>
+								<p>MATH 152: Calculus II</p>
+								<p>MATH 230: Introduction to Discrete Mathematics</p>
+								<p>MATH 251: Multivariate and Vector Calculus</p>
+								<p>MATH 252: Introduction to Differential Equations</p>
+								<p>MATH 332: Elementary Linear Algebra</p>
+							<h3>Interprofessional Project</h3>
+								<p>The purpose of Interprofessional Project classes is to expose students to team-workshopping, creating projects, and presentations to prepare them for professional settings and their careers.</p>
+				</div>
 			</div>
 		</div>
-		<br/>
-		<div class="container">
-			<h2>Education</h2>
-				<h3>High School</h3>
-					<p><strong>Chicago Academy High School</strong>, <small>3400 N. Austin Ave, Chicago, IL 60634</small></p>
-					<p>Attended: 2012 - 2016</p>
-				<h3>University</h3>
-					<p><strong>Illinois Institute of Technology</strong>, <small>10 W. 35th St, Chicago, IL 60616</small></p>
-					<p>Bachelor of Science in Computer Information Systems (BSCIS)</p>
-					<p>Minor in Psychology</p>
-					<p>Expected: Spring 2020</p>
-			<hr/>
-			<h2>Completed Related Courses</h2>
-			<p>The following are lists of courses I have completed thus far that I find relevant to my studies. To reference the courses, you can access IIT's <a href="https://web.iit.edu/ugaa/undergraduate-bulletin">Undergraduate Bulletin</a> for more information.</p>
-				<h3>Major-Related Courses</h3>
-					<ul style="list-style-type: none;">
-						<li><p class="italic">CS 201: Accelerated Introduction to Object-Oriented Computer Science</p></li>
-					</ul>
-						<small>Java and how to use methods and classes in order to perform object-oriented programming. The course's final project had student's individually create a program that will input all CTA train stops and allow a user to manipulate the data.</small>
-					<ul style="list-style-type: none;">
-						<li><p class="italic">CS 331: Data Structures and Algorithms</p></li>
-					</ul>
-						<small>Python and how to use and create functions and classes to manipulate data structures and perform algorithms.</small>
-					<ul style="list-style-type: none;">
-						<li><p class="italic">CS 350: Computer Organization and Assembly Language Programming</p></li>
-					</ul>
-						<small>How to use some C and write MIPS assembly code. The course's final project was to create a calculator that will ask for and accept input from the user and uses menus in order to find functions on how to perform any function the user requests.</small>
-					<ul style="list-style-type: none;">
-						<li><p class="italic">CS 425: Database Organization</p></li>
-					</ul>
-						<small>SQL and the use of database management systems to organize information. The final project required building an Entity-Relationship model, a relational schema in SQL, and an application in python that allows users to add, modify and delete entities in the written relational schema.</small>
-				<h3>Minor-Related Courses</h3>
-					<ul style="list-style-type: none;">
-						<li><p class="italic">PSYC 221: Introduction to Psychological Science</p></li>
-						<li><p class="italic">PSYC 303: Abnormal Psychology</p></li>
-						<li><p class="italic">PSYC 380: Psychology of Gender</p></li>
-					</ul>
-						<small>Learning how to properly and legally perform psychological experiments, surveys and analyze the data that was found.</small>
-				<h3>Math Courses</h3>
-					<ul style="list-style-type: none;">
-						<li><p class="italic">MATH 151: Calculus I</p></li>
-						<li><p class="italic">MATH 152: Calculus II</p></li>
-						<li><p class="italic">MATH 230: Introduction to Discrete Mathematics</p></li>
-						<li><p class="italic">MATH 251: Multivariate and Vector Calculus</p></li>
-						<li><p class="italic">MATH 252: Introduction to Differential Equations</p></li>
-						<li><p class="italic">MATH 332: Elementary Linear Algebra</p></li>
-					</ul>
-				<h3>Interprofessional Project</h3>
-					<p>This course's purpose was to introduce the idea of team-workshopping and creating a presentable and usable product that will serve the public in a helpful way. In the semester I took the course, the theme of the project was to create a product that would help a specific group of students at IIT. The product my team and I created was an informational e-folder for pre-medicine students, since our university did not have one. It included a list of medical schools, websites and physicians that were willing to be shadowed, volunteer opportunities to gain experience in the medical field, and more.</p>
-			<h2>Languages</h2>
-				<p>I have gained experience with various languages, including:</p>
-				<ul>
-					<li>MATLAB</li>
-					<li>Java</li>
-					<li>Python</li>
-					<li>SQL</li>
-					<li>MIPS</li>
-					<li>HTML/CSS</li>
-					<li>Bootstrap</li>
-					<li>Android Studio</li>
-				</ul>
-		</div>
-		<br/>
-		<footer class="jumbotron" style="padding: 10px; overflow: hidden;">
-			<address style="margin-left: 15%;">
-				<strong>Contact Information</strong>
-					<p><strong>Email</strong>: <a href="mailto:camarinsana@gmail.com">camarinsana@gmail.com</a></p>
-					<p><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/carol-marin-sanabria-5091b4125">Carol Marin-Sanabria</a></p>
-					<p><strong>GitHub</strong>: <a href=https://github.com/carolmarin>carolmarin</a></p>
-			</address>
-		</footer>
 	</body>
 </html>
